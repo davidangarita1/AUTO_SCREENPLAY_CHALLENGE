@@ -2,23 +2,6 @@
 
 Proyecto de automatización de pruebas para la tienda [OpenCart](http://opencart.abstracta.us/) utilizando el patrón **Screenplay** con **Serenity BDD**, **Cucumber** y **Java 21**.
 
-## Estructura del proyecto
-
-```
-src/
-├── java/com/products/
-│   ├── hooks/              # Configuración del actor (OnStage)
-│   ├── questions/          # Preguntas del patrón Screenplay
-│   ├── runners/            # Runner de Cucumber con JUnit Platform
-│   ├── stepdefinitions/    # Definiciones de pasos Cucumber
-│   ├── tasks/              # Tareas del patrón Screenplay
-│   └── ui/                 # Targets (localizadores de elementos)
-└── resources/
-    ├── features/           # Archivos .feature (Gherkin)
-    ├── serenity.conf       # Configuración de Serenity y WebDriver
-    └── logback-test.xml    # Configuración de logging
-```
-
 ## Escenarios de prueba
 
 1. **Agregar dos productos al carrito** — Agrega MacBook e iPhone y valida que el carrito muestra 2 productos.
@@ -37,7 +20,7 @@ src/
 1. Clonar el repositorio:
 
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/davidangarita1/AUTO_SCREENPLAY_CHALLENGE
    cd AUTO_SCREENPLAY_CHALLENGE
    ```
 
@@ -54,13 +37,3 @@ src/
 
 - **Resumen en una página:** `target/site/serenity/serenity-summary.html`
   ![Resumen en una página](docs/images/serenity-summary.png)
-
-## Tecnologías utilizadas
-
-| Tecnología     | Versión |
-| -------------- | ------- |
-| Java           | 21      |
-| Serenity BDD   | 5.3.2   |
-| Cucumber       | 7.34.2  |
-| JUnit Platform | 1.13.0  |
-| Gradle         | 9.2     |
