@@ -33,7 +33,7 @@ Proyecto de automatización de pruebas para la tienda [OpenCart](http://opencart
 3. Los reportes se generan automáticamente al finalizar la ejecución:
 
 - **Reporte HTML completo:** `target/site/serenity/index.html`
-  ![Reporte HTML completo](docs/images/serenity-full-report.png)
+  ![Reporte HTML completo](reports/serenity-full-report.png)
 
 - **Resumen en una página:** `target/site/serenity/serenity-summary.html`
-  ![Resumen en una página](docs/images/serenity-summary.png)
+  ![Resumen en una página](reports/serenity-summary.png)
