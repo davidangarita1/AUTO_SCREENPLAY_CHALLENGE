@@ -28,6 +28,17 @@ java {
     targetCompatibility = JavaVersion.VERSION_21
 }
 
+sourceSets {
+    test {
+        java {
+            srcDirs = ['src/java']
+        }
+        resources {
+            srcDirs = ['src/resources']
+        }
+    }
+}
+
 ext {
     serenity_version = '5.3.2'
     junit_platform_launcher_version="1.13.0"
