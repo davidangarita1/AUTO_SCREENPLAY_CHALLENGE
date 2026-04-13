@@ -1,4 +1,4 @@
-# AUTO_SCREENPLAY_CHALLENGE
+# Reto de Automatización de Screenplay con Serenity BDD
 
 Proyecto de automatización de pruebas para la tienda [OpenCart](http://opencart.abstracta.us/) utilizando el patrón **Screenplay** con **Serenity BDD**, **Cucumber** y **Java 21**.
 
