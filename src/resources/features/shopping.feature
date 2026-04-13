@@ -1,4 +1,4 @@
-Feature: Compras en la tienda OpenCart
+Feature: Compras en la tienda
 
   Scenario: Agregar dos productos al carrito
     Given el usuario se encuentra en la pagina principal de la tienda
